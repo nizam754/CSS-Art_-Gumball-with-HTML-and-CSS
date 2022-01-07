@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+:root{
+    --skinColor: #4bc6e3;
+    --shirtColor: #fddbb9;
+    --shortColor: #5e6064;
+    --collarColor: #985641;
+}
+/* All holder */
+#all-holder{
+    width: 220px; height: 280px;
+    background: #f0;
+    filter: drop-shadow(1px 1px 6px #000);
+    position: relative;
+    z-index: 1;
+    transform: scale(1) translateX(-40x);
+}
+.head{
+    width: 140px;
+    height: 98px;
+    background: var(--skinColor);
+    border-radius: 84px/75px 72% 54% 55%;
+    left: 160px;
+    position: relative;
+    z-index: ;
+    transform: translate(-50%, 15px);
+    border: 2px solid;
+}
